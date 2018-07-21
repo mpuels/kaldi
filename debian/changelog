@@ -1,0 +1,5 @@
+kaldi (5.4.202-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Marc Puels <mpuels@gmail.com>  Sat, 21 Jul 2018 17:16:51 +0200
