@@ -4,19 +4,15 @@ Maintainer: Marc Puels <mpuels@gmail.com>
 Build-Depends: debhelper (>=9)
 Standards-Version: 3.9.6
 Section: libs
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://anonscm.debian.org/collab-maint/kaldi.git
-#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/kaldi.git
+Homepage: http://kaldi-asr.org/
+Vcs-Git: https://github.com/mpuels/kaldi
+Vcs-Browser: https://github.com/mpuels/kaldi
 
-Package: kaldi-dev
-Section: libdevel
+Package: libkaldi
 Architecture: any
-Depends: kaldiBROKEN (= ${binary:Version}), ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
-
-Package: kaldiBROKEN
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: ${misc:Depends}
+Description: Toolkit for speech recognition (runtime)
+ Kaldi is a toolkit for speech recognition, intended for use by speech
+ recognition researchers and professionals.
+ .
+ This package includes the shared library.
