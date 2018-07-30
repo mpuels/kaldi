@@ -15,4 +15,13 @@ Description: Toolkit for speech recognition (runtime)
  Kaldi is a toolkit for speech recognition, intended for use by speech
  recognition researchers and professionals.
  .
- This package includes the shared library.
+ This package includes shared libraries required for decoding.
+
+Package: libkaldi-dev
+Architecture: any
+Depends: ${misc:Depends}
+Description: Toolkit for speech recognition (runtime)
+ Kaldi is a toolkit for speech recognition, intended for use by speech
+ recognition researchers and professionals.
+ .
+ This package contains the development support files.

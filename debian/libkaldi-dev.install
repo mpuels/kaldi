@@ -1,0 +1,7 @@
+src/base/*.h usr/include/kaldi/base
+src/decoder/*.h usr/include/kaldi/decoder
+src/fstext/*.h usr/include/kaldi/fstext
+src/lat/*.h usr/include/kaldi/lat
+src/nnet3/*.h usr/include/kaldi/nnet3
+src/util/*.h usr/include/kaldi/util
+src/online2/*.h usr/include/kaldi/online2
